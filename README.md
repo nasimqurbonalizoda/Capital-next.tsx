@@ -1,36 +1,81 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🏢 Capital Project
 
-## Getting Started
+Ин як платформаи муосир барои ҷустуҷӯи вакансияҳо ва идоракунии инфрасохтор мебошад, ки бо истифода аз технологияҳои навтарини экосистемаи **Next.js** сохта шудааст.
 
-First, run the development server:
+## 🚀 Технологияҳо
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Лоиҳа бо истифода аз технологияҳои зерин сохта шудааст:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+* **Framework:** [Next.js 15+](https://nextjs.org/) (App Router)
+* **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+* **Internationalization:** [Next-Intl](https://next-intl-docs.vercel.app/) (Дастгирии забонҳои TG, RU, EN)
+* **Icons:** [Lucide React](https://lucide.dev/)
+* **Components:** React Server & Client Components
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠 Насбкунӣ ва Оғоз
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1.  **Клон кардани лоиҳа:**
+    ```bash
+    git clone [https://github.com/your-username/capital.git](https://github.com/your-username/capital.git)
+    cd capital
+    ```
 
-## Learn More
+2.  **Насби бастаҳо (Dependencies):**
+    ```bash
+    npm install
+    ```
 
-To learn more about Next.js, take a look at the following resources:
+3.  **Оғози режими таҳия (Development):**
+    ```bash
+    npm run dev
+    ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+4.  **Сохтани нусхаи истеҳсолӣ (Production build):**
+    ```bash
+    npm run build
+    ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📂 Сохтори лоиҳа
 
-## Deploy on Vercel
+```text
+├── app/
+│   └── [locale]/         # Масирҳои бисёрзабона
+│       ├── layout.tsx    # Лайаути асосӣ (Server Component)
+│       ├── page.tsx      # Саҳифаи асосӣ
+│       └── not-found.tsx # Саҳифаи хатогии 404
+├── components/           # Компонентҳои такроршаванда (Header, Footer ва ғ.)
+├── messages/             # Файлҳои тарҷума (tg.json, ru.json, en.json)
+├── public/               # Файлҳои статикӣ (суратҳо, логҳо)
+└── i18n/                 # Танзимоти бисёрзабона (routing.ts)
+🌐 Бисёрзабонӣ (i18n)
+Лоиҳа се забонро дастгирӣ мекунад:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Тоҷикӣ (tg)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Русӣ (ru)
+
+Англисӣ (en)
+
+Барои илова кардани тарҷумаи нав, ба папкаи /messages ворид шуда, калидҳои заруриро илова кунед.
+
+⚠️ Маълумоти муҳим барои Build
+Дар Next.js 15/16 параметрҳои params ҳамчун Promise фиристода мешаванд. Ҳангоми истифода дар Layout ё Page, ҳатман онҳоро await кунед:
+
+TypeScript
+
+export default async function RootLayout({ params, children }) {
+  const { locale } = await params;
+  // ...
+}
+📄 Литсензия
+Ин лоиҳа таҳти литсензияи MIT мебошад.
+
+
+---
+
+### Чӣ тавр истифода баред?
+1. Дар папкаи асосии лоиҳаатон файли нав бо номи `README.md` созед.
+2. Коди болоро нусхабардорӣ карда, ба дохили он гузоред (Paste).
+3. Агар лозим бошад, пайванди GitHub-ро дар қисми `git clone` иваз кунед.
+
+**Мехоҳед ягон бахши дигар (масалан, тарзи илова кардани вакансияи нав) ба ин файл и

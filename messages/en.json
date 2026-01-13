@@ -1,0 +1,165 @@
+{
+  "Navbar": {
+    "home": "Home",
+    "news": "News",
+    "about": "About Us",
+    "map": "Coverage Map",
+    "infra": "Infrastructure",
+    "partners": "Partners",
+    "jobs": "Jobs"
+  },
+  "HomePage": {
+    "slide1_title": "Your key to quality supply",
+    "slide2_title": "Reliability, scale, development",
+    "slide3_title": "A reliable partner for your business growth",
+    "btn_partner": "Become a partner",
+    "btn_contact": "Contact us",
+    "stats_total": "Total customer base",
+    "stats_active": "Active customer base",
+    "stats_sub": "including HoReCa"
+  },
+  "About": {
+    "title": "About Us",
+    "subtitle": "We are a leading trade and distribution company specializing in the import and sale of a wide range of products throughout Tajikistan",
+    "values_title": "Values",
+    "values_text": "Commitment to quality service, building customer trust, and continuous development. We pride ourselves on being a leader and reliable partner, contributing to the availability of the best products for businesses and the population of Tajikistan.",
+    "goals_title": "Goals",
+    "goal_1": "Opening a RDC in GBAO",
+    "goal_2": "Expanding the portfolio",
+    "goal_3": "Improving service quality",
+    "footer_text": "Today, Capital-T is a modern, dynamically developing company with great potential and prospects."
+  },
+  "Stats": {
+    "years_title": "24 years",
+    "years_text": "we serve cities and districts throughout Tajikistan",
+    "employees_count": "300",
+    "employees_text": "dedicated employees",
+    "delivery_volume": "100 t +",
+    "delivery_text": "total delivery volume per day",
+    "offices_title": "Main Offices",
+    "dushanbe": "Dushanbe",
+    "khujand": "Khujand",
+    "branches_title": "Branches with warehouse and sales team",
+    "title_infra": "Infrastructure",
+    "warehouse_area": "15,000 sq.m",
+    "warehouse_desc": "warehouse area",
+    "fleet_count": "70 vehicles",
+    "fleet_desc": "in our fleet",
+    "clients_count": "8,000+",
+    "clients_desc": "regular clients",
+    "contracts_count": "5+",
+    "contracts_desc": "exclusive contracts",
+    "cities_count": "47+",
+    "cities_desc": "covered cities"
+  },
+  "MapSection": {
+    "title": "Coverage Map",
+    "sogd": "SOGD",
+    "rrp_khatlon": "RRP and Khatlon",
+    "gbao": "GBAO",
+    "akb": "AKB",
+    "okb": "OKB"
+  },
+  "Partners": {
+    "title": "Partners and Clients",
+    "subtitle": "Our portfolio includes globally recognized brands whose products are successfully promoted in our market."
+  },
+  "News": {
+    "title": "News",
+    "more": "More",
+    "all_news": "All News",
+    "featured_title": "Leading Trade and Distribution Company",
+    "featured_p1": "'CAPITAL-T' is one of the largest distribution companies in the territory of the Republic of Tajikistan...",
+    "featured_p2": "Since 2000, LLC 'CAPITAL-T' has begun rapid development...",
+    "news_title": "Headline",
+    "news_desc": "News description in Tajik language.",
+    "date": "01.01.2023",
+    "about_title": "About the Company",
+    "values_title": "Values",
+    "goals_title": "Goals",
+    "other_news": "Other News",
+    "single_p1": "'CAPITAL-T' is one of the largest distribution companies in the territory of the Republic of Tajikistan...",
+    "single_p2": "Since 2000, LLC 'CAPITAL-T' has begun rapid development...",
+    "single_p3": "The company exists, contributing to the development of individual customers and the provision of quality supply...",
+    "values_desc": "Commitment to quality service, building customer trust, and continuous development.",
+    "goal_1": "Opening a RDC in GBAO",
+    "goal_2": "Expanding the portfolio",
+    "goal_3": "Improving service quality",
+    "footer_note": "Today, Capital-T is a modern, dynamically developing company with great potential and prospects."
+  },
+  "Vacancies": {
+    "title": "Jobs",
+    "more": "More",
+    "all_vacancies": "All Jobs",
+    "experience": "Experience from 1 year",
+    "no_experience": "No experience needed"
+  },
+  "ContactForm": {
+    "title": "Become a Partner",
+    "name": "Full Name",
+    "company": "Company Name",
+    "email": "Email",
+    "phone": "Phone Number",
+    "upload": "Upload Proposal",
+    "upload_limit": ".5 MB file size limit",
+    "send": "Send"
+  },
+  "Jobs": {
+  "supervisor_title": "Sales Supervisor",
+  "experience": "1+ year experience",
+  "location": "Bokhtar",
+  "dept": "Sales Department Supervisor",
+  "schedule": "Full-time",
+  "about_title": "About the Company:",
+  "about_desc": "We are a rapidly growing manufacturer of hand and laundry soaps, as well as washing powders. Our goal is to provide customers with high-quality products that make their lives more comfortable and cleaner.",
+  "search_desc": "We are looking for an energetic and goal-oriented leader! Join our team if you possess the following qualities:",
+  "qualities_list": [
+    "Leadership skills and the ability to motivate a team.",
+    "Strategic thinking and analytical skills.",
+    "Responsibility and organizational skills.",
+    "Ability to make quick decisions and solve problems.",
+    "Result-oriented mindset and focus on customer service.",
+    "Readiness to work in a highly competitive environment."
+  ],
+  "expectations_title": "Candidate Requirements:",
+  "expectations_list": [
+    "2+ years of experience in a supervisor position.",
+    "Successful team management experience.",
+    "Knowledge of Dushanbe and DRS markets.",
+    "Excellent communication and negotiation skills."
+  ],
+  "duties_title": "Key Responsibilities:",
+  "duties_list": [
+    "Leading and coordinating the sales representatives team.",
+    "Setting goals and tasks for employees.",
+    "Developing and implementing effective sales strategies.",
+    "Analyzing sales data and market trends.",
+    "Monitoring sales targets and KPI performance."
+  ],
+  "offers_title": "What We Offer:",
+  "offers_list": [
+    "Salary and bonuses above the Tajikistan market average.",
+    "Professional growth opportunities.",
+    "Corporate events and training sessions.",
+    "Compensation for travel and mobile communication expenses."
+  ],
+  "important_title": "Important:",
+  "important_desc": "Working in this position requires high determination and readiness for a competitive environment. We are looking for result-oriented individuals ready for challenges."
+},
+"NotFound": {
+    "title": "Page Not Found",
+    "description": "Sorry, but the page you are looking for does not exist or has been moved.",
+    "backHome": "Back to Home"
+  },
+  "Vacansiya": {
+    "title": "Vacancies",
+    "searchPlaceholder": "Search for a vacancy",
+    "regions": "Regions",
+    "categories": "Categories",
+    "experience": "Experience",
+    "more": "More",
+    "apply": "Apply",
+    "notFound": "Unfortunately, nothing was found"
+  }
+
+}
