@@ -4,6 +4,8 @@ import { getMessages } from "next-intl/server";
 import { NextIntlClientProvider } from "next-intl";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
+import { ThemeProvider } from "@/components/theme.provider";
+
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -15,21 +17,25 @@ export default async function RootLayout({
   params
 }: {
   children: React.ReactNode;
-  params: Promise<{ locale: string }>; //params акнун Promise аст
+  params: Promise<{ locale: string }>; 
 }) {
-  // Қадами муҳим: await кардани params
   const { locale } = await params;
-  
-  // Гирифтани паёмҳо барои ҳамон locale
   const messages = await getMessages();
 
   return (
-    <html lang={locale}>
-      <body className="antialiased min-h-screen flex flex-col">
+    <html lang={locale} suppressHydrationWarning>
+      <body className="antialiased min-h-screen flex flex-col bg-white dark:bg-slate-950 text-slate-900 dark:text-slate-50 transition-colors duration-300">
         <NextIntlClientProvider locale={locale} messages={messages}>
-          <Header /> 
-          <main className="grow">{children}</main>
-          <Footer locale={locale} />
+          <ThemeProvider
+            attribute="class"
+            defaultTheme="system"
+            enableSystem
+            disableTransitionOnChange
+          >
+            <Header /> 
+            <main className="grow">{children}</main>
+            <Footer locale={locale} />
+          </ThemeProvider>
         </NextIntlClientProvider>
       </body>
     </html>
