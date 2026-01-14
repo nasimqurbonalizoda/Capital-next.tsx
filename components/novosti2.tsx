@@ -16,7 +16,7 @@ export default function Novosti2() {
       </div>
 
       <section className="mb-12">
-        <div className="bg-white border border-gray-100 rounded-[45px] overflow-hidden shadow-sm flex flex-col lg:flex-row p-4 lg:p-8 gap-10 items-center">
+        <div className="bg-white border border-gray-100 rounded-[45px] overflow-hidden  flex flex-col lg:flex-row p-4 lg:p-8 gap-10 items-center">
           <div className="lg:w-1/2 space-y-6 px-4">
             <h2 className="text-3xl font-black text-[#1a202c] leading-tight">
               {t("featured_title")}

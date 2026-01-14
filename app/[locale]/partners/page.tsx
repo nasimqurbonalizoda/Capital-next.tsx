@@ -108,10 +108,10 @@ export default function VacancyPage() {
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               placeholder={t('searchPlaceholder')}
-              className="w-full pl-6 pr-4 py-4 rounded-2xl bg-[#f5f5f7] border border-transparent outline-none focus:border-orange-200 focus:bg-white transition-all shadow-sm"
+              className="w-full pl-6 pr-4 py-4 rounded-2xl bg-[#f5f5f7] border border-transparent outline-none focus:border-orange-200 focus:bg-white transition-all "
             />
           </div>
-          <button className="bg-orange-500 p-4 rounded-2xl text-white hover:bg-orange-600 shadow-lg shadow-orange-100 transition-all active:scale-95">
+          <button className="bg-orange-500 p-4 rounded-2xl text-white hover:bg-orange-600  0 transition-all active:scale-95">
             <Search size={24} />
           </button>
         </div>
@@ -142,7 +142,7 @@ export default function VacancyPage() {
                 </p>
 
                 <div className="flex flex-wrap gap-4">
-                  <button className="bg-orange-500 text-white px-10 py-4 rounded-2xl font-bold hover:bg-orange-600 shadow-xl shadow-orange-100 transition-all hover:-translate-y-1">
+                  <button className="bg-orange-500 text-white px-10 py-4 rounded-2xl font-bold hover:bg-orange-600  0 transition-all hover:-translate-y-1">
                     {t('more')}
                   </button>
                   <button className="border-2 border-slate-100 text-slate-900 px-10 py-4 rounded-2xl font-bold hover:bg-slate-50 transition-all hover:-translate-y-1">

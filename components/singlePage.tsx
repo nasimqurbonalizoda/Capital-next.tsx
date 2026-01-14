@@ -7,7 +7,7 @@ export default function SinglePage() {
 
     return (
         <main className="max-w-[1350px] mx-auto px-4 md:px-6 py-6 md:py-16 font-sans">
-            <div className="relative w-full h-[250px] md:h-[550px] bg-gray-100 rounded-[30px] md:rounded-[55px] mb-10 md:mb-16 overflow-hidden shadow-xl">
+            <div className="relative w-full h-[250px] md:h-[550px] bg-gray-100 rounded-[30px] md:rounded-[55px] mb-10 md:mb-16 overflow-hidden ">
                 <Image
                     src="/image 19 (3).png"
                     alt="Featured Image"
@@ -39,7 +39,7 @@ export default function SinglePage() {
                     </div>
                 </section>
 
-                <section className="bg-gray-50 p-6 md:p-10 rounded-[30px] md:rounded-[45px] border border-gray-100 shadow-sm">
+                <section className="bg-gray-50 p-6 md:p-10 rounded-[30px] md:rounded-[45px] border border-gray-100 ">
                     <h2 className="text-lg md:text-2xl font-black mb-4 md:mb-6 uppercase tracking-wider text-orange-500">
                         {t("values_title")}
                     </h2>
@@ -54,7 +54,7 @@ export default function SinglePage() {
                     </h2>
                     <ul className="grid grid-cols-1 gap-4 md:gap-6">
                         {[1, 2, 3].map((id) => (
-                            <li key={id} className="flex items-start gap-4 md:gap-6 bg-white p-4 md:p-6 rounded-2xl border border-gray-100 shadow-sm hover:shadow-md hover:-translate-y-1 transition-all">
+                            <li key={id} className="flex items-start gap-4 md:gap-6 bg-white p-4 md:p-6 rounded-2xl border border-gray-100  hover:shadow-md hover:-translate-y-1 transition-all">
                                 <span className="text-2xl md:text-3xl font-black text-orange-400">0{id}</span>
                                 <span className="text-[15px] md:text-lg font-bold text-gray-800 pt-1">
                                     {t(`goal_${id}`)}

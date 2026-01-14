@@ -1,4 +1,4 @@
-"use client"; // <--- Ҳатман ҳамин сатрро дар аввал илова кунед
+"use client"; 
 
 import { useEffect } from "react";
 

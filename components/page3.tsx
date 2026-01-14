@@ -49,7 +49,7 @@ export default function Vacancy() {
           <p className="font-bold mb-6 text-lg">{t("search_desc")}</p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {qualities.map((i) => (
-              <div key={i} className="flex items-start gap-3 bg-white p-4 rounded-2xl shadow-sm border border-gray-50">
+              <div key={i} className="flex items-start gap-3 bg-white p-4 rounded-2xl  border border-gray-50">
                 <FiCheckCircle className="text-orange-400 mt-1 shrink-0" />
                 <span className="text-sm font-medium text-gray-600">{t(`qualities_list.${i}`)}</span>
               </div>
@@ -83,7 +83,7 @@ export default function Vacancy() {
         </div>
 
         {/* Мо пешниҳод мекунем */}
-        <section className="bg-[#1a202c] text-white p-10 rounded-[45px] shadow-xl">
+        <section className="bg-[#1a202c] text-white p-10 rounded-[45px] ">
           <h2 className="text-2xl font-black mb-8 uppercase text-orange-400">{t("offers_title")}</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {offers.map((i) => (

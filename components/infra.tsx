@@ -10,7 +10,7 @@ export default function Infra() {
       
       <div className="lg:col-span-4 grid grid-cols-1 gap-6">
         <div className="bg-[#f8f9fb] p-8 rounded-[32px] flex flex-col gap-4 relative overflow-hidden">
-          <div className="w-12 h-12 bg-white rounded-2xl flex items-center justify-center shadow-sm text-2xl">
+          <div className="w-12 h-12 bg-white rounded-2xl flex items-center justify-center  text-2xl">
             🕒
           </div>
           <div>
@@ -22,7 +22,7 @@ export default function Infra() {
 
         <div className="grid grid-cols-2 gap-6">
           <div className="bg-[#f8f9fb] p-8 rounded-[32px] flex flex-col gap-4">
-            <div className="w-12 h-12 bg-white rounded-2xl flex items-center justify-center shadow-sm text-2xl">
+            <div className="w-12 h-12 bg-white rounded-2xl flex items-center justify-center  text-2xl">
               👥
             </div>
             <div>
@@ -34,7 +34,7 @@ export default function Infra() {
           </div>
 
           <div className="bg-[#f8f9fb] p-8 rounded-[32px] flex flex-col gap-4">
-            <div className="w-12 h-12 bg-white rounded-2xl flex items-center justify-center shadow-sm text-2xl">
+            <div className="w-12 h-12 bg-white rounded-2xl flex items-center justify-center  text-2xl">
               🚚
             </div>
             <div>
@@ -53,13 +53,13 @@ export default function Infra() {
         <div className="relative z-10">
           <h4 className="text-center font-bold text-gray-900 mb-10 text-lg">{t("offices_title")}</h4>
           <div className="flex flex-wrap justify-center gap-10 mb-16">
-            <div className="bg-white/80 backdrop-blur-md p-6 rounded-3xl shadow-sm border border-white/50 min-w-[200px] text-center">
+            <div className="bg-white/80 backdrop-blur-md p-6 rounded-3xl  border border-white/50 min-w-[200px] text-center">
               <div className="text-orange-500 mb-2 flex justify-center">📍</div>
               <h5 className="font-black text-gray-900 text-xl">{t("dushanbe")}</h5>
               <p className="text-gray-400 text-xs mt-1">+992 911 20 75 79</p>
               <p className="text-gray-300 text-[10px] mt-1 italic">улица М. Назаршоева 143</p>
             </div>
-            <div className="bg-white/80 backdrop-blur-md p-6 rounded-3xl shadow-sm border border-white/50 min-w-[200px] text-center">
+            <div className="bg-white/80 backdrop-blur-md p-6 rounded-3xl  border border-white/50 min-w-[200px] text-center">
               <div className="text-orange-500 mb-2 flex justify-center">📍</div>
               <h5 className="font-black text-gray-900 text-xl">{t("khujand")}</h5>
               <p className="text-gray-400 text-xs mt-1">+992 911 20 75 79</p>
@@ -70,7 +70,7 @@ export default function Infra() {
             <h4 className="font-bold text-gray-900 mb-6 text-sm">{t("branches_title")}</h4>
             <div className="flex flex-wrap justify-center gap-3">
               {branches.map((elem) => (
-                <span key={elem} className="bg-white px-5 py-2 rounded-full text-[12px] font-bold text-gray-600 shadow-sm border border-gray-50">
+                <span key={elem} className="bg-white px-5 py-2 rounded-full text-[12px] font-bold text-gray-600  border border-gray-50">
                   {elem}
                 </span>
               ))}

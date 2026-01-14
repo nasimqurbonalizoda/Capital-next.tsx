@@ -16,7 +16,7 @@ const NotFound = () => {
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <Link 
             href="/"
-            className="w-full sm:w-auto flex items-center justify-center gap-3 px-10 py-4 bg-orange-500 text-white rounded-2xl font-bold text-lg hover:bg-orange-600 hover:-translate-y-1 transition-all duration-300 shadow-xl shadow-orange-100"
+            className="w-full sm:w-auto flex items-center justify-center gap-3 px-10 py-4 bg-orange-500 text-white rounded-2xl font-bold text-lg hover:bg-orange-600 hover:-translate-y-1 transition-all duration-300  "
           >
             <Home size={22} />
             Ба саҳифаи асосӣ

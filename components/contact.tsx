@@ -17,24 +17,24 @@ export default function Contact() {
             <input 
               type="text" 
               placeholder={t("name")} 
-              className="w-full p-6 rounded-3xl bg-white outline-none shadow-sm text-gray-700" 
+              className="w-full p-6 rounded-3xl bg-white outline-none  text-gray-700" 
             />
             <input 
               type="text" 
               placeholder={t("company")} 
-              className="w-full p-6 rounded-3xl bg-white outline-none shadow-sm text-gray-700" 
+              className="w-full p-6 rounded-3xl bg-white outline-none  text-gray-700" 
             />
             
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
               <input 
                 type="email" 
                 placeholder={t("email")} 
-                className="p-6 rounded-3xl bg-white outline-none shadow-sm text-gray-700" 
+                className="p-6 rounded-3xl bg-white outline-none  text-gray-700" 
               />
               <input 
                 type="tel" 
                 placeholder={t("phone")} 
-                className="p-6 rounded-3xl bg-white outline-none shadow-sm text-gray-700" 
+                className="p-6 rounded-3xl bg-white outline-none  text-gray-700" 
               />
             </div>
 
@@ -48,7 +48,7 @@ export default function Contact() {
               </div>
             </div>
 
-            <button className="w-full bg-[#1e293b] text-white py-6 rounded-3xl font-bold text-lg hover:bg-[#0f172a] transition-all shadow-lg active:scale-95">
+            <button className="w-full bg-[#1e293b] text-white py-6 rounded-3xl font-bold text-lg hover:bg-[#0f172a] transition-all  active:scale-95">
               {t("send")}
             </button>
           </form>
@@ -56,23 +56,23 @@ export default function Contact() {
 
         <div className="w-full lg:w-1/2 flex flex-col gap-6">
           
-          <div className="relative w-full h-[450px] rounded-[40px] overflow-hidden shadow-sm">
+          <div className="relative w-full h-[450px] rounded-[40px] overflow-hidden ">
             <img 
               src="/Frame 1261154859.png" 
               alt="Map" 
               className="w-full h-full object-cover" 
             />
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
-               <div className="w-8 h-8 bg-orange-500 rounded-full border-4 border-white shadow-xl "></div>
+               <div className="w-8 h-8 bg-orange-500 rounded-full border-4 border-white  "></div>
             </div>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-            <div className="bg-white py-6 px-8 rounded-[30px] flex items-center justify-center gap-3 shadow-sm">
+            <div className="bg-white py-6 px-8 rounded-[30px] flex items-center justify-center gap-3 ">
               <span className="text-gray-400">✉</span>
               <span className="font-bold text-[#0f172a]">contact@company.com</span>
             </div>
-            <div className="bg-white py-6 px-8 rounded-[30px] flex items-center justify-center gap-3 shadow-sm">
+            <div className="bg-white py-6 px-8 rounded-[30px] flex items-center justify-center gap-3 ">
               <span className="text-gray-400">📞</span>
               <span className="font-bold text-[#0f172a]">+992 911 20 75 79</span>
             </div>

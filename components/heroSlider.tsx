@@ -51,7 +51,7 @@ export default function HeroSlider() {
                 </p>
 
                 <div className="flex flex-wrap justify-center gap-4">
-                  <button className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-3 rounded-full font-bold transition shadow-lg">
+                  <button className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-3 rounded-full font-bold transition ">
                     {t("btn_partner")}
                   </button>
                   <button className="border-2 border-orange-500/50 hover:border-orange-500 text-white px-8 py-3 rounded-full font-bold transition backdrop-blur-sm">

@@ -1,6 +1,7 @@
 const page = () => {
-  if (true) {
-    throw new Error("Хатогии санҷишӣ дар папкаи About");
+ 
+   if (true) {
+    throw new Error("Хатогии санҷишӣ дар папкаи home");
   }
 
   return (

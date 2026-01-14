@@ -23,8 +23,8 @@ export default function Infratech() {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-6">
         
         {/* Блоки Складҳо */}
-        <div className="lg:col-span-3 bg-[#fcfdfe] border border-gray-50 p-12 rounded-[45px] flex flex-col items-center justify-center shadow-sm hover:shadow-xl transition-all duration-500">
-          <div className="w-20 h-20 bg-white rounded-3xl flex items-center justify-center mb-6 shadow-sm text-4xl">
+        <div className="lg:col-span-3 bg-[#fcfdfe] border border-gray-50 p-12 rounded-[45px] flex flex-col items-center justify-center  hover: transition-all duration-500">
+          <div className="w-20 h-20 bg-white rounded-3xl flex items-center justify-center mb-6  text-4xl">
              🏠
           </div>
           <h3 className="text-4xl font-black text-[#1a202c] mb-2 tracking-tighter">
@@ -36,8 +36,8 @@ export default function Infratech() {
         </div>
 
         {/* Блоки Автопарк */}
-        <div className="lg:col-span-3 bg-[#fcfdfe] border border-gray-50 p-12 rounded-[45px] flex flex-col items-center justify-center shadow-sm hover:shadow-xl transition-all duration-500">
-          <div className="w-20 h-20 bg-white rounded-3xl flex items-center justify-center mb-6 shadow-sm text-4xl">
+        <div className="lg:col-span-3 bg-[#fcfdfe] border border-gray-50 p-12 rounded-[45px] flex flex-col items-center justify-center  hover: transition-all duration-500">
+          <div className="w-20 h-20 bg-white rounded-3xl flex items-center justify-center mb-6  text-4xl">
              🚚
           </div>
           <h3 className="text-4xl font-black text-[#1a202c] mb-2 tracking-tighter">
@@ -50,7 +50,7 @@ export default function Infratech() {
 
         {/* Блокҳои хурди поёнӣ */}
         {secondaryStats.map((stat, index) => (
-          <div key={index} className="lg:col-span-2 bg-[#fcfdfe] border border-gray-50 p-8 rounded-[35px] flex items-center justify-between shadow-sm hover:shadow-md transition-all">
+          <div key={index} className="lg:col-span-2 bg-[#fcfdfe] border border-gray-50 p-8 rounded-[35px] flex items-center justify-between  hover:shadow-md transition-all">
             <div>
               <h4 className="text-3xl font-black text-[#1a202c]">{stat.count}</h4>
               <p className="text-gray-400 text-[10px] font-bold uppercase tracking-wider mt-1">

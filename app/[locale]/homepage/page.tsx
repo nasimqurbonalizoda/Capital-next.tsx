@@ -1,11 +1,9 @@
-import React from 'react'
-
-const page = () => {
+export default function Page() {
+ 
+  
   return (
     <div>
-      
+      {/* Bu qism xato tufayli ko'rinmaydi */}
     </div>
-  )
+  );
 }
-
-export default page

@@ -51,11 +51,11 @@ export default function Map() {
            <img src="../Group 2.png" alt="Map" className="w-full h-full object-contain" />
            <div className="absolute top-1/4 left-1/2 -translate-x-10 flex items-center gap-2">
               <div className="w-3 h-3 bg-orange-500 rounded-full animate-ping"></div>
-              <span className="text-[10px] font-bold bg-white px-2 py-1 rounded shadow-sm">Худжанд</span>
+              <span className="text-[10px] font-bold bg-white px-2 py-1 rounded ">Худжанд</span>
            </div>
            <div className="absolute bottom-1/3 left-1/3 flex items-center gap-2">
               <div className="w-3 h-3 bg-orange-500 rounded-full animate-ping"></div>
-              <span className="text-[10px] font-bold bg-white px-2 py-1 rounded shadow-sm">Душанбе</span>
+              <span className="text-[10px] font-bold bg-white px-2 py-1 rounded ">Душанбе</span>
            </div>
         </div>
 

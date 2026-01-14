@@ -26,7 +26,7 @@ export default function About() {
         <div className="space-y-10">
           <div>
             <h3 className="text-orange-500 text-xl font-bold mb-4">{t("values_title")}</h3>
-            <div className="bg-white border border-gray-100 p-6 rounded-2xl shadow-sm">
+            <div className="bg-white border border-gray-100 p-6 rounded-2xl ">
               <p className="text-gray-600 leading-relaxed text-[15px]">
                 {t("values_text")}
               </p>
@@ -37,7 +37,7 @@ export default function About() {
             <h3 className="text-orange-500 text-xl font-bold mb-4">{t("goals_title")}</h3>
             <div className="space-y-4">
               {goals.map((elem, index) => (
-                <div key={index} className="flex items-center gap-4 bg-white border border-gray-50 p-4 rounded-2xl shadow-sm">
+                <div key={index} className="flex items-center gap-4 bg-white border border-gray-50 p-4 rounded-2xl ">
                   <div className="w-10 h-10 bg-gray-100 rounded-xl flex items-center justify-center text-xl">
                     <img src="../map.png" alt="" />
                   </div>

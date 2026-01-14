@@ -15,7 +15,7 @@ export default function News2() {
         <section className="max-w-[1350px] mx-auto px-6 py-20">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                 {Rasm.map((elem) => (
-                    <div key={elem.id} className="bg-white rounded-[35px] overflow-hidden border border-gray-100 shadow-sm hover:shadow-md transition-all flex flex-col">
+                    <div key={elem.id} className="bg-white rounded-[35px] overflow-hidden border border-gray-100  transition-all flex flex-col">
                         <div className="h-56 relative w-full bg-gray-100">
                             <Image
                                 src={elem.img}
